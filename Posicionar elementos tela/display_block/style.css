@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+.example {
+  color: #fff;
+  text-align: center;
+}
+
+.example-item {
+  display: block;
+  height: 250px;
+  width: 350px;
+}
+
+.example-item_first {
+  background-color: #faa116;
+}
+
+.example-item_second {
+  background-color: #57c7c3;
+  /* seu eu mexer no width o elemento é alterado */
+  margin-left: 66.66%;
+
+  /* se eu mexer no width ele se matem na direta. */
+  margin-left: auto;
+
+  /* Colocando left e rigth como auto, o elemento fica centralizado. */
+  margin-right: auto;
+}
+
+.example-item_third {
+  background-color: #3897d3;
+}

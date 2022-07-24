@@ -17,12 +17,17 @@ li {
 
 .example {
   color: #fff;
-  text-align: center;
+  text-align: justify;
 }
-
-/* Permite setr a largura, altura e margin com display block */
+/* Deixa os 3 itens separados e alinhados entre si */
+.example::after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+/* Permite setar a largura, altura e margin com display inlineblock */
 .example-item {
-  display: block;
+  display: inline-block;
   height: 250px;
   width: 350px;
 }
@@ -33,14 +38,6 @@ li {
 
 .example-item_second {
   background-color: #57c7c3;
-  /* seu eu mexer no width o elemento é alterado */
-  margin-left: 66.66%;
-
-  /* se eu mexer no width ele se matem na direta. */
-  margin-left: auto;
-
-  /* Colocando left e rigth como auto, o elemento fica centralizado. */
-  margin-right: auto;
 }
 
 .example-item_third {

@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #dedede;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-menu a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-menu a:hover {
+    color: dodgerblue;
+    border-bottom: 2px solid dodgerblue;
+    transition: .3s;
+}
+
+@media (max-width: 768px) {
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    .nav-menu {
+        padding: 0;
+    }
+}

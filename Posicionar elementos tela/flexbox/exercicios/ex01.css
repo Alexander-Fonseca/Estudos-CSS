@@ -1,6 +1,8 @@
 body {
     margin: 0;
 }
+
+/* NavBar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -27,6 +29,27 @@ body {
     transition: .3s;
 }
 
+/* Cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+    gap: 50px;
+}
+
+.card-item {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-link {
+    display: flex;
+    gap: 20px
+
+}
+/* Breakpoint */
 @media (max-width: 768px) {
     .navbar{
         flex-direction: column;

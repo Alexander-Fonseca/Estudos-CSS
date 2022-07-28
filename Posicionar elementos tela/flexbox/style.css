@@ -1,7 +1,6 @@
 .flex {
   display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  flex-flow: row-reverse wrap;
   border: 3px solid black;
   background-color: antiquewhite;
   margin: 50px 20px;

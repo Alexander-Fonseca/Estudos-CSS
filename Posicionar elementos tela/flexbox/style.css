@@ -1,6 +1,6 @@
 .flex {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   border: 3px solid black;
   background-color: antiquewhite;
   margin: 50px 20px;

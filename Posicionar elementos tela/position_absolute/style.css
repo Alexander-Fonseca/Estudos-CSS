@@ -1,0 +1,19 @@
+div, p{
+    border: 2px solid black;
+    display: inline-block;
+    background-color: aquamarine;
+    font-weight: 900;
+}
+
+div{
+    position: relative;
+    width: 150px;
+    height: 200px;
+}
+
+p{
+    position: absolute;
+    margin: 0;
+    bottom: 10px;
+    top: 5px
+}
